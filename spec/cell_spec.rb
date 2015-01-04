@@ -11,6 +11,6 @@ describe Cell do
   end
 
   it 'should be able to be changed to ship' do
-    allow(cell).to receive(:place_ship).and_return(:ship)
+    allow(cell).to receive(:ship_property).and_return(:ship)
   end
 end

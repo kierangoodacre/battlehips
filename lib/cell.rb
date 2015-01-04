@@ -4,7 +4,7 @@ def property
   @cell = :water
 end
 
-def place_ship
+def ship_property
   @cell = :ship
 end
 
